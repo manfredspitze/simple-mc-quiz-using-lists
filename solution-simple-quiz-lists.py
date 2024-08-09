@@ -29,10 +29,10 @@ def quiz():
         for option in options[i]:
             print(option)
         
-        # Get user's answer
+       
         answer = input("Your answer (A, B, C, or D): ").strip().upper()
 
-        # Check if the answer is correct
+      
         if answer == correct_answers[i]:
             print("Correct!\n")
             score += 2
