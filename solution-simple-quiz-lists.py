@@ -43,5 +43,4 @@ def quiz():
     print(f"Your final score: {score} out of {len(questions) * 2}")
     print(f'Percent correct: {score / ( len(questions) * 2) * 100:.2f}%')
 
-# Run the quiz
 quiz()
